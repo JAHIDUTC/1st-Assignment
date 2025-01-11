@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-body {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+*{
+    font-family: "Open Sans", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeded;
+    margin: 0 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 80px; */
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: rgba(222, 247, 238, 0.425);
+    border: 1px solid rgb(168, 235, 210);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(35, 121, 13);
+    font-weight: 600;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 10px 80px;
+}
+
+.container {
+    background-color: #C6E4D6;
+    /* margin: 0 100px; */
+    border-radius: 10px;
+}
+
+.container h1{
+    font-size: 45px;
+}
+
+.content {
+    color: black;
+}
+
+.hero-img img {
+    padding: 50px 50px;
+}
+
+.btn2 {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgb(18, 107, 10);
+    border: none;
+    cursor: pointer;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.container2 {
+    /* margin: 10px 100px; */
+    color: black;
+}
+
+.items {
+    background-color: white;
+    width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item-icon img {
+    width: 40px;
+}
+
+.item>h3 {
+    color: #181818;
+}
+
+.item>p {
+    font-size: 14px;
+}
+
+.Container2-content {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.container3 {
+    /* margin: 10px 100px; */
+    color: black;
+}
+
+.container3>p {
+    font-size: 14px;
+    margin: 0 10px 20px 0;
+}
+
+.Container3-content {
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+}
+
+.items2 {
+    background-color: #D5E1F5;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.items2-0 {
+    background-color: #C6E4D6;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.items2-1 {
+    background-color: #F7EBCF;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn3 {
+    padding: 15px 20px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.btn3-0 {
+    padding: 15px 20px;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn3-1 {
+    padding: 15px 20px;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container4-content {
+    background: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top 20px left 20px;
+    background-color: white;
+    /* margin: 50px 100px; */
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid rgba(169, 169, 169, 0.582);
+    border-radius: 20px;
+}
+
+.slogan {
+    text-align: justify;
+}
+
+.feedback{
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.feedback-items {
+    padding: 10px 20px;
+}
+
+.feedback-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.feedback-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.feedback-options h4 {
+    padding: 5px 10px;
+}
+
+.feedback-buttons {
+    padding: 15px 55px;
+    border-left: 1px solid black;
+}
+
+.feedback-btn {
+    background-color: #C6E4D6;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.feedback-btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.question .opinion{
+    border-left: none;
+}
+
+.opinion-left{
+    border-right: none;
+}
+
+/* Feedback with table Style  */
+
+.table {
+    border-collapse: collapse;
+    margin: 20px 120px 20px 20px;
+    position: relative;
+    width: 97%;
+}
+
+th, td {
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.bg {
+    background-color: #C6E4D6;
+}
+
+.qh {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.left-side {
+    width: 70%;
+}
+
+h1 span {
+    color: #ea00ff;
+    opacity: 0.6;
+}
+
+.right-side {
+    text-align: center;
+}
+
+/* new styles */
+
+.news-content {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.child-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.news-content-text h1 {
+    margin: 5px 10px;
+}
+
+
+.news-content .subtitle {
+    text-align: justify;
+}
+
+.news-content .intro-img {
+    border-radius: 20px;
+
+}
+
+.news-content .subtitle {
+    margin: 0 30px 10px 0;
+}
+
+.btn4 {
+    background-color: #006A50;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.news-content .btn4 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.donet-contents {
+    text-align: center;
+    margin: 50px 100px;
+}
+
+.btn-parents {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn5 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(75, 73, 73, 0.295);
+    cursor: pointer;
+}
+
+.btn5 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.active {
+    background-color: #C6E4D6;
+}
+
+.custom-donet {
+    text-align: center;
+}
+
+.custom-donet .custom-amount {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 350px;
+    box-shadow: 1px 1px 1px 0px #a7a7a9ab;
+    border: none;
+}
+
+.custom-donet button {
+    padding: 10px 30px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-donet button a {
+    text-decoration: none;
+    color: white;
+}
+
+.newslatter {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 50px 200px;
+    border-radius: 10px;
+}
+
+.newslatter h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.newslatter p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.newslatter {
+    margin-bottom: 50px;
+}
+
+.subscribe-items {
+    display: flex;
+    justify-content: center;
+    /* gap: 1px; */
+}
+
+.subscribe {
+    padding: 20px 550px 20px 10px;
+}
+
+.subscribe-btn {
+    background-color: #006A50;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.subscribe-btn a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+
+/*  কপিরাইট সেকশন টা পুরো ওয়েবসাইট নিতে অনেক ঝামেলা হইছে।  টপ, রাইট, এবসুলেট এর ঝামেলা সারাইত অনেক কষ্ট হইছে   */
+
+.copyright{
+    /* position: absolute; */
+    background-color: white;
+    position: absolute;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+}
+
+.copyright-title {
+    text-align: center;
+    padding: 10px;
+    /* margin-bottom: 50px; */
+    /* width: 100%; */
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+}
+
+hr{
+    width: 80%;
+}
+
+.socila-icon ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+
